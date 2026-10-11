@@ -1,0 +1,6 @@
+# Compiled Java files
+out/
+*.class
+
+# Visual Studio Code workspace settings
+.vscode/
