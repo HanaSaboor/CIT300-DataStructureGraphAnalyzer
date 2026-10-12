@@ -126,6 +126,17 @@ Queue Operations
 - Integrate the graph and performance features with the main application menu and test the complete application.
 - Explain graph representation, BFS, DFS, and traversal complexity.
 
+**Graph test results:**
+
+| Test | Input | Output |
+|---|---|---|
+| Add vertex | A, B, C, D | Vertex added: A (B, C, D too) |
+| Add duplicate vertex | A | Vertex already exists. |
+| Add edge, missing vertex | A, Z | Both vertices must exist first. |
+| Display Graph | none | A -> [B, D], B -> [A, C], C -> [B], D -> [A] |
+| BFS from A | A | BFS: [A, B, D, C] |
+| DFS from A | A | DFS: [A, B, C, D] |
+
 ### 2.2 Shared responsibilities
 
 All four members should participate in final integration and quality checks. Each member should test their own module, review the integrated application, contribute to documentation where appropriate, create genuine commits for their work, and present their contribution in the demonstration video. Update this section if actual group contributions differ from the planned allocation above.
