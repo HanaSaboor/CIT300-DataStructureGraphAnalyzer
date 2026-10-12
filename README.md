@@ -6,7 +6,7 @@
 **Programming language:** Java  
 **Repository:** `CIT300-DataStructureGraphAnalyzer`
 
-> Before submission, replace the repository placeholder in this README with the live GitHub repository URL.
+> GitHub Repository: https://github.com/HanaSaboor/CIT300-DataStructureGraphAnalyzer.
 
 ---
 
