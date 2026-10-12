@@ -54,6 +54,25 @@ The following table records the group's planned responsibilities. Individual con
 - Test the Last In, First Out (LIFO) behaviour of a stack and the First In, First Out (FIFO) behaviour of a queue.
 - Explain the data structures, operations, and typical time complexities.
 
+Testing Results:
+
+Stack Operations
+
+* Push: Successfully added values to the stack.
+* Display: Displayed the stack values in the correct order, from bottom to top.
+* Pop: Successfully removed 23 and then 10, following the Last In, First Out (LIFO) principle.
+* Empty Stack Handling: Displayed “Stack underflow stack is empty” when Pop was attempted on an empty stack.
+* Peek: Displayed the top value correctly and showed “Stack is empty” when Peek was attempted on an empty stack.
+
+Queue Operations
+
+* Enqueue: Successfully added 10 and 20 to the queue.
+* Display: Displayed 10, 20 from front to rear.
+* Front/Peek: Correctly displayed 10 without removing it.
+* Dequeue: Successfully removed 10 and then 20, following the First In, First Out (FIFO) principle.
+* Empty Queue Handling: Displayed “Queue is empty cannot dequeue” when Dequeue was attempted on an empty queue.
+* Empty Queue Peek: Displayed “Queue is empty” when Peek was attempted on an empty queue.
+
 #### Member 3 — SF. Nusrath (23DA2-0984)
 
 **Assigned responsibility:** Linked List and Performance Analyzer components.
