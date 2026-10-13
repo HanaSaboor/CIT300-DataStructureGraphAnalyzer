@@ -83,6 +83,38 @@ Queue Operations
 - Display comparison counts, traversal results, execution time in nanoseconds, and time-complexity information.
 - Explain why measured execution time can vary and why comparison counts and theoretical complexity are useful for analysis.
 
+#### Testing Results
+
+**1. Linked List Testing**
+- Tested Insert, Delete, Search, and Display operations.
+- Display output: `10 -> 30 -> 10 -> null`.
+- Tested linked list operations using sample values.
+
+**2. Search Performance Comparison**
+- Original array: `[5, 15, 25]`
+- Search value: `15`
+- Linear Search: Found at index 1, with 2 comparisons. Execution time: 500 ns. Time complexity: `O(n)`.
+- Binary Search: Found at sorted-array index 1, with 1 comparison. Execution time: 400 ns. Time complexity: `O(log n)`.
+- Result: Binary Search used fewer comparisons in this test.
+- Sorting time is excluded from Binary Search timing.
+
+**3. Graph Traversal Performance**
+- Starting vertex: `A`
+- BFS traversal: `[A, B]`
+- Vertices visited: 2
+- Traversal steps: 4
+- Execution time: 50,800 ns
+- Time complexity: `O(V + E)`
+- DFS traversal: `[A, B]`
+- Vertices visited: 2
+- Traversal steps: 4
+- Execution time: 87,100 ns
+- Time complexity: `O(V + E)`
+
+**4. Performance Analysis**
+- Execution times can vary between runs and depend on factors such as system activity and graph size.
+- Comparison counts and traversal steps help compare the amount of work performed.
+- Theoretical time complexity explains how an algorithm's work grows as the input size increases.
 #### Member 4 — MN. Aaysha Jainum (23DA2-1035)
 
 **Assigned responsibility:** Graph component and main application integration.
